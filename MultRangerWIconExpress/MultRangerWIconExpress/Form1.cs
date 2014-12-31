@@ -33,10 +33,10 @@ namespace MultRangerWIconExpress
             // manual setting is not needed if the IP in the configuration file already is matching the camera.
             cameras = new List<CameraHelper>();
             cameras.Add(new CameraHelper("Camera 0", 
-                "C:\\Users\\Omicron\\Documents\\402-13-12-16-2014-onsite\\RangerSetupFiles\\Parameter File Side Inspection (three fast multiscan 3D inspection) v14.icx", 
+                "../../../../Parameter File Side Inspection (three fast multiscan 3D inspection) v14.icx", 
                 "10.10.15.105"));
             cameras.Add(new CameraHelper("Camera 1",
-                "C:\\Users\\Omicron\\Documents\\402-13-12-16-2014-onsite\\RangerSetupFiles\\Parameter File Side Inspection (three fast multiscan 3D inspection) v14.icx",
+                "../../../../Parameter File Side Inspection (three fast multiscan 3D inspection) v14.icx",
                 "10.10.11.101"));
             
             // Do the initialization and connection of each camera system in a separate thread so that
